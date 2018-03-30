@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="d1y-BT-rbs">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="UiR-Ip-hwf">
+            <objects>
+                <navigationController id="d1y-BT-rbs" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kvV-6c-5jr">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="vmP-9t-Nb9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j95-vX-8BH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1282" y="-100"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O4G-0J-8G7"/>
+                        <viewControllerLayoutGuide type="bottom" id="2B8-cf-ThN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qQu-1i-QPq" userLabel="background">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g4h-61-sjD">
+                                        <rect key="frame" x="20" y="297" width="335" height="40"/>
+                                        <color key="backgroundColor" red="0.52264207600000001" green="0.83090859650000004" blue="0.99909281729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Ohc-ZX-Xah"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <state key="normal" title="mp4全景视频播放"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="playmp4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1sI-oU-ALw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I7j-NH-oa8">
+                                        <rect key="frame" x="20" y="477" width="335" height="40"/>
+                                        <color key="backgroundColor" red="0.52264207600000001" green="0.83090859650000004" blue="0.99909281729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="GcW-ZE-owk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <state key="normal" title="全景图片浏览"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="viewpicture:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oQ5-3e-CIx"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9U-Sh-CiS">
+                                        <rect key="frame" x="20" y="567" width="335" height="50"/>
+                                        <color key="backgroundColor" red="0.52264207600000001" green="0.83090859650000004" blue="0.99909281729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="I3A-He-Ajf"/>
+                                            <constraint firstAttribute="height" constant="50" id="xgG-Ir-QfJ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <state key="normal" title="h264裸流播放"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="playh264:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tjF-ON-3dg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ghF-S5-bCM">
+                                        <rect key="frame" x="20" y="387" width="335" height="40"/>
+                                        <color key="backgroundColor" red="0.52264207600000001" green="0.83090859650000004" blue="0.99909281729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="s5v-pg-Asx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <state key="normal" title="m4v视频播放"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="playm4v:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kHy-1y-ubY"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y6x-qh-XB3">
+                                        <rect key="frame" x="20" y="207" width="335" height="40"/>
+                                        <color key="backgroundColor" red="0.52264207600000001" green="0.83090859650000004" blue="0.99909281729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Y96-Wc-ZAs"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <state key="normal" title="mkv全景视频文件播放"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="playmkv:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hdj-UQ-Bto"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="I7j-NH-oa8" firstAttribute="top" secondItem="ghF-S5-bCM" secondAttribute="bottom" constant="50" id="6xo-Uu-nU3"/>
+                                    <constraint firstAttribute="trailing" secondItem="l9U-Sh-CiS" secondAttribute="trailing" constant="20" id="97F-EK-7ML"/>
+                                    <constraint firstItem="g4h-61-sjD" firstAttribute="top" secondItem="y6x-qh-XB3" secondAttribute="bottom" constant="50" id="AAv-wo-8ac"/>
+                                    <constraint firstItem="g4h-61-sjD" firstAttribute="leading" secondItem="qQu-1i-QPq" secondAttribute="leading" constant="20" id="B4o-qF-IlC"/>
+                                    <constraint firstItem="y6x-qh-XB3" firstAttribute="leading" secondItem="qQu-1i-QPq" secondAttribute="leading" constant="20" id="Bsj-N0-kGX"/>
+                                    <constraint firstItem="l9U-Sh-CiS" firstAttribute="leading" secondItem="qQu-1i-QPq" secondAttribute="leading" constant="20" id="F0G-fi-08X"/>
+                                    <constraint firstItem="I7j-NH-oa8" firstAttribute="leading" secondItem="qQu-1i-QPq" secondAttribute="leading" constant="20" id="IrN-DY-h1c"/>
+                                    <constraint firstAttribute="trailing" secondItem="ghF-S5-bCM" secondAttribute="trailing" constant="20" id="PlH-0c-ktA"/>
+                                    <constraint firstAttribute="trailing" secondItem="g4h-61-sjD" secondAttribute="trailing" constant="20" id="ahf-FV-I7O"/>
+                                    <constraint firstAttribute="trailing" secondItem="I7j-NH-oa8" secondAttribute="trailing" constant="20" id="cJ3-94-AEc"/>
+                                    <constraint firstItem="l9U-Sh-CiS" firstAttribute="top" secondItem="I7j-NH-oa8" secondAttribute="bottom" constant="50" id="cKR-nj-REP"/>
+                                    <constraint firstItem="ghF-S5-bCM" firstAttribute="top" secondItem="g4h-61-sjD" secondAttribute="bottom" constant="50" id="eeq-LS-Cbg"/>
+                                    <constraint firstItem="ghF-S5-bCM" firstAttribute="leading" secondItem="qQu-1i-QPq" secondAttribute="leading" constant="20" id="mrN-Sc-Rio"/>
+                                    <constraint firstAttribute="bottom" secondItem="l9U-Sh-CiS" secondAttribute="bottom" constant="50" id="nQI-2f-0KM"/>
+                                    <constraint firstAttribute="trailing" secondItem="y6x-qh-XB3" secondAttribute="trailing" constant="20" id="rww-Ue-fiT"/>
+                                    <constraint firstItem="l9U-Sh-CiS" firstAttribute="leading" secondItem="qQu-1i-QPq" secondAttribute="leading" constant="20" id="w63-m9-3vl"/>
+                                    <constraint firstAttribute="trailing" secondItem="l9U-Sh-CiS" secondAttribute="trailing" constant="20" id="ymT-yH-635"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qQu-1i-QPq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="HmE-Sc-gpy"/>
+                            <constraint firstItem="qQu-1i-QPq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="SDf-nw-6f8"/>
+                            <constraint firstItem="2B8-cf-ThN" firstAttribute="top" secondItem="qQu-1i-QPq" secondAttribute="bottom" id="YLr-63-Oog"/>
+                            <constraint firstAttribute="trailing" secondItem="qQu-1i-QPq" secondAttribute="trailing" id="qsu-CX-APT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="P75-1J-UqV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-575.20000000000005" y="-119.1904047976012"/>
+        </scene>
+    </scenes>
+</document>

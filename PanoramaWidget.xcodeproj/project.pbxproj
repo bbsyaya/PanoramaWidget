@@ -1,0 +1,950 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		254D3B7B206A46CD00C11C3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3B7A206A46CD00C11C3D /* AppDelegate.m */; };
+		254D3B7E206A46CD00C11C3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3B7D206A46CD00C11C3D /* ViewController.m */; };
+		254D3B81206A46CD00C11C3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254D3B7F206A46CD00C11C3D /* Main.storyboard */; };
+		254D3B83206A46CD00C11C3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254D3B82206A46CD00C11C3D /* Assets.xcassets */; };
+		254D3B86206A46CD00C11C3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254D3B84206A46CD00C11C3D /* LaunchScreen.storyboard */; };
+		254D3B89206A46CD00C11C3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3B88206A46CD00C11C3D /* main.m */; };
+		254D3B93206A46CD00C11C3D /* PanoramaWidgetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3B92206A46CD00C11C3D /* PanoramaWidgetTests.m */; };
+		254D3B9E206A46CD00C11C3D /* PanoramaWidgetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3B9D206A46CD00C11C3D /* PanoramaWidgetUITests.m */; };
+		254D3BB0206A470B00C11C3D /* GLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BAE206A470A00C11C3D /* GLProgram.m */; };
+		254D3BB1206A470B00C11C3D /* GLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BAE206A470A00C11C3D /* GLProgram.m */; };
+		254D3BB2206A470B00C11C3D /* GLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BAE206A470A00C11C3D /* GLProgram.m */; };
+		254D3BB3206A470B00C11C3D /* PanoramaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BAF206A470B00C11C3D /* PanoramaVC.m */; };
+		254D3BB4206A470B00C11C3D /* PanoramaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BAF206A470B00C11C3D /* PanoramaVC.m */; };
+		254D3BB5206A470B00C11C3D /* PanoramaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BAF206A470B00C11C3D /* PanoramaVC.m */; };
+		254D3BB8206A472200C11C3D /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 254D3BB6206A472200C11C3D /* Shader.vsh */; };
+		254D3BB9206A472200C11C3D /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 254D3BB6206A472200C11C3D /* Shader.vsh */; };
+		254D3BBA206A472200C11C3D /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 254D3BB6206A472200C11C3D /* Shader.vsh */; };
+		254D3BBB206A472200C11C3D /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 254D3BB7206A472200C11C3D /* Shader.fsh */; };
+		254D3BBC206A472200C11C3D /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 254D3BB7206A472200C11C3D /* Shader.fsh */; };
+		254D3BBD206A472200C11C3D /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 254D3BB7206A472200C11C3D /* Shader.fsh */; };
+		254D3BCA206A521700C11C3D /* KxAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BC0206A521700C11C3D /* KxAudioManager.m */; };
+		254D3BCB206A521700C11C3D /* KxAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BC0206A521700C11C3D /* KxAudioManager.m */; };
+		254D3BCC206A521700C11C3D /* KxAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BC0206A521700C11C3D /* KxAudioManager.m */; };
+		254D3BCD206A521700C11C3D /* kxmovie.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 254D3BC3206A521700C11C3D /* kxmovie.bundle */; };
+		254D3BCE206A521700C11C3D /* kxmovie.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 254D3BC3206A521700C11C3D /* kxmovie.bundle */; };
+		254D3BCF206A521700C11C3D /* kxmovie.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 254D3BC3206A521700C11C3D /* kxmovie.bundle */; };
+		254D3BD0206A521700C11C3D /* KxMovieDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BC5206A521700C11C3D /* KxMovieDecoder.m */; };
+		254D3BD1206A521700C11C3D /* KxMovieDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BC5206A521700C11C3D /* KxMovieDecoder.m */; };
+		254D3BD2206A521700C11C3D /* KxMovieDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BC5206A521700C11C3D /* KxMovieDecoder.m */; };
+		254D3BD3206A521700C11C3D /* KxMovieGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BC7206A521700C11C3D /* KxMovieGLView.m */; };
+		254D3BD4206A521700C11C3D /* KxMovieGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BC7206A521700C11C3D /* KxMovieGLView.m */; };
+		254D3BD5206A521700C11C3D /* KxMovieGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BC7206A521700C11C3D /* KxMovieGLView.m */; };
+		254D3BD6206A521700C11C3D /* KxMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BC9206A521700C11C3D /* KxMovieViewController.m */; };
+		254D3BD7206A521700C11C3D /* KxMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BC9206A521700C11C3D /* KxMovieViewController.m */; };
+		254D3BD8206A521700C11C3D /* KxMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BC9206A521700C11C3D /* KxMovieViewController.m */; };
+		254D3BE8206B37D500C11C3D /* panorama.mkv in Resources */ = {isa = PBXBuildFile; fileRef = 254D3BE7206B37D500C11C3D /* panorama.mkv */; };
+		254D3BE9206B37D500C11C3D /* panorama.mkv in Resources */ = {isa = PBXBuildFile; fileRef = 254D3BE7206B37D500C11C3D /* panorama.mkv */; };
+		254D3BEA206B37D500C11C3D /* panorama.mkv in Resources */ = {isa = PBXBuildFile; fileRef = 254D3BE7206B37D500C11C3D /* panorama.mkv */; };
+		254D3BF0206B390D00C11C3D /* panorama.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 254D3BEF206B390D00C11C3D /* panorama.m4v */; };
+		254D3BF1206B390D00C11C3D /* panorama.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 254D3BEF206B390D00C11C3D /* panorama.m4v */; };
+		254D3BF2206B390D00C11C3D /* panorama.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 254D3BEF206B390D00C11C3D /* panorama.m4v */; };
+		254D3BFF206B5F1100C11C3D /* AudioPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BF6206B5F0F00C11C3D /* AudioPlayer.mm */; };
+		254D3C00206B5F1100C11C3D /* AudioPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BF6206B5F0F00C11C3D /* AudioPlayer.mm */; };
+		254D3C01206B5F1100C11C3D /* AudioPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BF6206B5F0F00C11C3D /* AudioPlayer.mm */; };
+		254D3C02206B5F1100C11C3D /* HardDecoder+Translater.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BF7206B5F1000C11C3D /* HardDecoder+Translater.m */; };
+		254D3C03206B5F1100C11C3D /* HardDecoder+Translater.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BF7206B5F1000C11C3D /* HardDecoder+Translater.m */; };
+		254D3C04206B5F1100C11C3D /* HardDecoder+Translater.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BF7206B5F1000C11C3D /* HardDecoder+Translater.m */; };
+		254D3C05206B5F1100C11C3D /* ParseFrame.mm in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BFA206B5F1000C11C3D /* ParseFrame.mm */; };
+		254D3C06206B5F1100C11C3D /* ParseFrame.mm in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BFA206B5F1000C11C3D /* ParseFrame.mm */; };
+		254D3C07206B5F1100C11C3D /* ParseFrame.mm in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BFA206B5F1000C11C3D /* ParseFrame.mm */; };
+		254D3C08206B5F1100C11C3D /* HardDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BFC206B5F1000C11C3D /* HardDecoder.m */; };
+		254D3C09206B5F1100C11C3D /* HardDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BFC206B5F1000C11C3D /* HardDecoder.m */; };
+		254D3C0A206B5F1100C11C3D /* HardDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BFC206B5F1000C11C3D /* HardDecoder.m */; };
+		254D3C0B206B5F1100C11C3D /* VideoPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BFD206B5F1100C11C3D /* VideoPacket.m */; };
+		254D3C0C206B5F1100C11C3D /* VideoPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BFD206B5F1100C11C3D /* VideoPacket.m */; };
+		254D3C0D206B5F1100C11C3D /* VideoPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3BFD206B5F1100C11C3D /* VideoPacket.m */; };
+		254D3C14206B607A00C11C3D /* H264ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3C13206B607A00C11C3D /* H264ViewController.m */; };
+		254D3C15206B607A00C11C3D /* H264ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3C13206B607A00C11C3D /* H264ViewController.m */; };
+		254D3C16206B607A00C11C3D /* H264ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3C13206B607A00C11C3D /* H264ViewController.m */; };
+		254D3C1B206B613C00C11C3D /* VideoFileParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3C18206B613C00C11C3D /* VideoFileParser.m */; };
+		254D3C1C206B613C00C11C3D /* VideoFileParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3C18206B613C00C11C3D /* VideoFileParser.m */; };
+		254D3C1D206B613C00C11C3D /* VideoFileParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3C18206B613C00C11C3D /* VideoFileParser.m */; };
+		254D3C1E206B613C00C11C3D /* LayerPixer.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3C1A206B613C00C11C3D /* LayerPixer.m */; };
+		254D3C1F206B613C00C11C3D /* LayerPixer.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3C1A206B613C00C11C3D /* LayerPixer.m */; };
+		254D3C20206B613C00C11C3D /* LayerPixer.m in Sources */ = {isa = PBXBuildFile; fileRef = 254D3C1A206B613C00C11C3D /* LayerPixer.m */; };
+		25D12C43206CB4790035B619 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D12C41206CB4780035B619 /* PhotoViewController.m */; };
+		25D12C44206CB4790035B619 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D12C41206CB4780035B619 /* PhotoViewController.m */; };
+		25D12C45206CB4790035B619 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D12C41206CB4780035B619 /* PhotoViewController.m */; };
+		25D12C48206CB55E0035B619 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D12C47206CB55E0035B619 /* BaseViewController.m */; };
+		25D12C49206CB55E0035B619 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D12C47206CB55E0035B619 /* BaseViewController.m */; };
+		25D12C4A206CB55E0035B619 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D12C47206CB55E0035B619 /* BaseViewController.m */; };
+		25D12C4E206CB9AE0035B619 /* StateFitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D12C4D206CB9AE0035B619 /* StateFitter.m */; };
+		25D12C4F206CB9AE0035B619 /* StateFitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D12C4D206CB9AE0035B619 /* StateFitter.m */; };
+		25D12C50206CB9AE0035B619 /* StateFitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D12C4D206CB9AE0035B619 /* StateFitter.m */; };
+		25D12C52206CC2D30035B619 /* panorama.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 25D12C51206CC2D30035B619 /* panorama.jpeg */; };
+		25D12C53206CC2D30035B619 /* panorama.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 25D12C51206CC2D30035B619 /* panorama.jpeg */; };
+		25D12C54206CC2D30035B619 /* panorama.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 25D12C51206CC2D30035B619 /* panorama.jpeg */; };
+		25D12C56206CCA600035B619 /* panorama.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 25D12C55206CCA600035B619 /* panorama.mp4 */; };
+		25D12C57206CCA600035B619 /* panorama.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 25D12C55206CCA600035B619 /* panorama.mp4 */; };
+		25D12C58206CCA600035B619 /* panorama.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 25D12C55206CCA600035B619 /* panorama.mp4 */; };
+		25D12C5A206CD01C0035B619 /* panorama.h264 in Resources */ = {isa = PBXBuildFile; fileRef = 25D12C59206CD01C0035B619 /* panorama.h264 */; };
+		25D12C5B206CD01C0035B619 /* panorama.h264 in Resources */ = {isa = PBXBuildFile; fileRef = 25D12C59206CD01C0035B619 /* panorama.h264 */; };
+		25D12C5C206CD01C0035B619 /* panorama.h264 in Resources */ = {isa = PBXBuildFile; fileRef = 25D12C59206CD01C0035B619 /* panorama.h264 */; };
+		F8B7F26107A29BC96CE126DF /* libPods-PanoramaWidget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F118DEB7F4E728D928E710BF /* libPods-PanoramaWidget.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		254D3B8F206A46CD00C11C3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 254D3B6E206A46CD00C11C3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 254D3B75206A46CD00C11C3D;
+			remoteInfo = PanoramaWidget;
+		};
+		254D3B9A206A46CD00C11C3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 254D3B6E206A46CD00C11C3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 254D3B75206A46CD00C11C3D;
+			remoteInfo = PanoramaWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E95696DACC62C69A651315C /* Pods-PanoramaWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PanoramaWidget.release.xcconfig"; path = "Pods/Target Support Files/Pods-PanoramaWidget/Pods-PanoramaWidget.release.xcconfig"; sourceTree = "<group>"; };
+		254D3B76206A46CD00C11C3D /* PanoramaWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanoramaWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		254D3B79206A46CD00C11C3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		254D3B7A206A46CD00C11C3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		254D3B7C206A46CD00C11C3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		254D3B7D206A46CD00C11C3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		254D3B80206A46CD00C11C3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		254D3B82206A46CD00C11C3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		254D3B85206A46CD00C11C3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		254D3B87206A46CD00C11C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		254D3B88206A46CD00C11C3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		254D3B8E206A46CD00C11C3D /* PanoramaWidgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanoramaWidgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		254D3B92206A46CD00C11C3D /* PanoramaWidgetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanoramaWidgetTests.m; sourceTree = "<group>"; };
+		254D3B94206A46CD00C11C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		254D3B99206A46CD00C11C3D /* PanoramaWidgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanoramaWidgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		254D3B9D206A46CD00C11C3D /* PanoramaWidgetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanoramaWidgetUITests.m; sourceTree = "<group>"; };
+		254D3B9F206A46CD00C11C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		254D3BAC206A470A00C11C3D /* PanoramaVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramaVC.h; sourceTree = "<group>"; };
+		254D3BAD206A470A00C11C3D /* GLProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLProgram.h; sourceTree = "<group>"; };
+		254D3BAE206A470A00C11C3D /* GLProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLProgram.m; sourceTree = "<group>"; };
+		254D3BAF206A470B00C11C3D /* PanoramaVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoramaVC.m; sourceTree = "<group>"; };
+		254D3BB6206A472200C11C3D /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		254D3BB7206A472200C11C3D /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		254D3BBF206A521700C11C3D /* KxAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxAudioManager.h; sourceTree = "<group>"; };
+		254D3BC0206A521700C11C3D /* KxAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxAudioManager.m; sourceTree = "<group>"; };
+		254D3BC1206A521700C11C3D /* KxLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxLogger.h; sourceTree = "<group>"; };
+		254D3BC2206A521700C11C3D /* kxmovie-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "kxmovie-Prefix.pch"; sourceTree = "<group>"; };
+		254D3BC3206A521700C11C3D /* kxmovie.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = kxmovie.bundle; sourceTree = "<group>"; };
+		254D3BC4206A521700C11C3D /* KxMovieDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMovieDecoder.h; sourceTree = "<group>"; };
+		254D3BC5206A521700C11C3D /* KxMovieDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMovieDecoder.m; sourceTree = "<group>"; };
+		254D3BC6206A521700C11C3D /* KxMovieGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMovieGLView.h; sourceTree = "<group>"; };
+		254D3BC7206A521700C11C3D /* KxMovieGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMovieGLView.m; sourceTree = "<group>"; };
+		254D3BC8206A521700C11C3D /* KxMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMovieViewController.h; sourceTree = "<group>"; };
+		254D3BC9206A521700C11C3D /* KxMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMovieViewController.m; sourceTree = "<group>"; };
+		254D3BD9206B2D7D00C11C3D /* PanoramaWidget.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanoramaWidget.pch; sourceTree = "<group>"; };
+		254D3BE7206B37D500C11C3D /* panorama.mkv */ = {isa = PBXFileReference; lastKnownFileType = file; path = panorama.mkv; sourceTree = "<group>"; };
+		254D3BEF206B390D00C11C3D /* panorama.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = panorama.m4v; sourceTree = "<group>"; };
+		254D3BF5206B5F0F00C11C3D /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
+		254D3BF6206B5F0F00C11C3D /* AudioPlayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AudioPlayer.mm; sourceTree = "<group>"; };
+		254D3BF7206B5F1000C11C3D /* HardDecoder+Translater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HardDecoder+Translater.m"; sourceTree = "<group>"; };
+		254D3BF8206B5F1000C11C3D /* HardDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HardDecoder.h; sourceTree = "<group>"; };
+		254D3BF9206B5F1000C11C3D /* HardDecoder+Translater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HardDecoder+Translater.h"; sourceTree = "<group>"; };
+		254D3BFA206B5F1000C11C3D /* ParseFrame.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ParseFrame.mm; sourceTree = "<group>"; };
+		254D3BFB206B5F1000C11C3D /* VideoPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPacket.h; sourceTree = "<group>"; };
+		254D3BFC206B5F1000C11C3D /* HardDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HardDecoder.m; sourceTree = "<group>"; };
+		254D3BFD206B5F1100C11C3D /* VideoPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPacket.m; sourceTree = "<group>"; };
+		254D3BFE206B5F1100C11C3D /* ParseFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseFrame.h; sourceTree = "<group>"; };
+		254D3C12206B607A00C11C3D /* H264ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = H264ViewController.h; sourceTree = "<group>"; };
+		254D3C13206B607A00C11C3D /* H264ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = H264ViewController.m; sourceTree = "<group>"; };
+		254D3C17206B613C00C11C3D /* VideoFileParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoFileParser.h; sourceTree = "<group>"; };
+		254D3C18206B613C00C11C3D /* VideoFileParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoFileParser.m; sourceTree = "<group>"; };
+		254D3C19206B613C00C11C3D /* LayerPixer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerPixer.h; sourceTree = "<group>"; };
+		254D3C1A206B613C00C11C3D /* LayerPixer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerPixer.m; sourceTree = "<group>"; };
+		254D3C26206B809600C11C3D /* Parameter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parameter.h; sourceTree = "<group>"; };
+		25D12C41206CB4780035B619 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		25D12C42206CB4790035B619 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		25D12C46206CB55E0035B619 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		25D12C47206CB55E0035B619 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		25D12C4C206CB9AE0035B619 /* StateFitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateFitter.h; sourceTree = "<group>"; };
+		25D12C4D206CB9AE0035B619 /* StateFitter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateFitter.m; sourceTree = "<group>"; };
+		25D12C51206CC2D30035B619 /* panorama.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panorama.jpeg; sourceTree = "<group>"; };
+		25D12C55206CCA600035B619 /* panorama.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = panorama.mp4; sourceTree = "<group>"; };
+		25D12C59206CD01C0035B619 /* panorama.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = panorama.h264; sourceTree = "<group>"; };
+		E61EE35921816392B4A020B2 /* Pods-PanoramaWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PanoramaWidget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PanoramaWidget/Pods-PanoramaWidget.debug.xcconfig"; sourceTree = "<group>"; };
+		F118DEB7F4E728D928E710BF /* libPods-PanoramaWidget.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PanoramaWidget.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		254D3B73206A46CD00C11C3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B7F26107A29BC96CE126DF /* libPods-PanoramaWidget.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254D3B8B206A46CD00C11C3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254D3B96206A46CD00C11C3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		254D3B6D206A46CD00C11C3D = {
+			isa = PBXGroup;
+			children = (
+				254D3B78206A46CD00C11C3D /* PanoramaWidget */,
+				254D3B91206A46CD00C11C3D /* PanoramaWidgetTests */,
+				254D3B9C206A46CD00C11C3D /* PanoramaWidgetUITests */,
+				254D3B77206A46CD00C11C3D /* Products */,
+				F54957792F6171C4F0CAFB3C /* Pods */,
+				83F6963BC18147C015908E07 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		254D3B77206A46CD00C11C3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				254D3B76206A46CD00C11C3D /* PanoramaWidget.app */,
+				254D3B8E206A46CD00C11C3D /* PanoramaWidgetTests.xctest */,
+				254D3B99206A46CD00C11C3D /* PanoramaWidgetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		254D3B78206A46CD00C11C3D /* PanoramaWidget */ = {
+			isa = PBXGroup;
+			children = (
+				25D12C4B206CB9590035B619 /* tls */,
+				254D3BF3206B5EDE00C11C3D /* decode */,
+				254D3BDA206B2F0900C11C3D /* src */,
+				254D3BAB206A46E900C11C3D /* render */,
+				254D3B79206A46CD00C11C3D /* AppDelegate.h */,
+				254D3B7A206A46CD00C11C3D /* AppDelegate.m */,
+				25D12C46206CB55E0035B619 /* BaseViewController.h */,
+				25D12C47206CB55E0035B619 /* BaseViewController.m */,
+				254D3B7C206A46CD00C11C3D /* ViewController.h */,
+				254D3B7D206A46CD00C11C3D /* ViewController.m */,
+				254D3C12206B607A00C11C3D /* H264ViewController.h */,
+				254D3C13206B607A00C11C3D /* H264ViewController.m */,
+				25D12C42206CB4790035B619 /* PhotoViewController.h */,
+				25D12C41206CB4780035B619 /* PhotoViewController.m */,
+				254D3B7F206A46CD00C11C3D /* Main.storyboard */,
+				254D3B82206A46CD00C11C3D /* Assets.xcassets */,
+				254D3B84206A46CD00C11C3D /* LaunchScreen.storyboard */,
+				254D3B87206A46CD00C11C3D /* Info.plist */,
+				254D3B88206A46CD00C11C3D /* main.m */,
+				254D3BD9206B2D7D00C11C3D /* PanoramaWidget.pch */,
+			);
+			path = PanoramaWidget;
+			sourceTree = "<group>";
+		};
+		254D3B91206A46CD00C11C3D /* PanoramaWidgetTests */ = {
+			isa = PBXGroup;
+			children = (
+				254D3B92206A46CD00C11C3D /* PanoramaWidgetTests.m */,
+				254D3B94206A46CD00C11C3D /* Info.plist */,
+			);
+			path = PanoramaWidgetTests;
+			sourceTree = "<group>";
+		};
+		254D3B9C206A46CD00C11C3D /* PanoramaWidgetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				254D3B9D206A46CD00C11C3D /* PanoramaWidgetUITests.m */,
+				254D3B9F206A46CD00C11C3D /* Info.plist */,
+			);
+			path = PanoramaWidgetUITests;
+			sourceTree = "<group>";
+		};
+		254D3BAB206A46E900C11C3D /* render */ = {
+			isa = PBXGroup;
+			children = (
+				254D3BAD206A470A00C11C3D /* GLProgram.h */,
+				254D3BAE206A470A00C11C3D /* GLProgram.m */,
+				254D3BAC206A470A00C11C3D /* PanoramaVC.h */,
+				254D3BAF206A470B00C11C3D /* PanoramaVC.m */,
+				254D3BB7206A472200C11C3D /* Shader.fsh */,
+				254D3BB6206A472200C11C3D /* Shader.vsh */,
+			);
+			path = render;
+			sourceTree = "<group>";
+		};
+		254D3BBE206A521700C11C3D /* kxmovie */ = {
+			isa = PBXGroup;
+			children = (
+				254D3BC3206A521700C11C3D /* kxmovie.bundle */,
+				254D3BBF206A521700C11C3D /* KxAudioManager.h */,
+				254D3BC0206A521700C11C3D /* KxAudioManager.m */,
+				254D3BC1206A521700C11C3D /* KxLogger.h */,
+				254D3BC2206A521700C11C3D /* kxmovie-Prefix.pch */,
+				254D3BC4206A521700C11C3D /* KxMovieDecoder.h */,
+				254D3BC5206A521700C11C3D /* KxMovieDecoder.m */,
+				254D3BC6206A521700C11C3D /* KxMovieGLView.h */,
+				254D3BC7206A521700C11C3D /* KxMovieGLView.m */,
+				254D3BC8206A521700C11C3D /* KxMovieViewController.h */,
+				254D3BC9206A521700C11C3D /* KxMovieViewController.m */,
+			);
+			path = kxmovie;
+			sourceTree = "<group>";
+		};
+		254D3BDA206B2F0900C11C3D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				25D12C59206CD01C0035B619 /* panorama.h264 */,
+				25D12C51206CC2D30035B619 /* panorama.jpeg */,
+				25D12C55206CCA600035B619 /* panorama.mp4 */,
+				254D3BE7206B37D500C11C3D /* panorama.mkv */,
+				254D3BEF206B390D00C11C3D /* panorama.m4v */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		254D3BF3206B5EDE00C11C3D /* decode */ = {
+			isa = PBXGroup;
+			children = (
+				254D3BF4206B5EEE00C11C3D /* harddecoder */,
+				254D3BBE206A521700C11C3D /* kxmovie */,
+			);
+			path = decode;
+			sourceTree = "<group>";
+		};
+		254D3BF4206B5EEE00C11C3D /* harddecoder */ = {
+			isa = PBXGroup;
+			children = (
+				254D3BF5206B5F0F00C11C3D /* AudioPlayer.h */,
+				254D3BF6206B5F0F00C11C3D /* AudioPlayer.mm */,
+				254D3BF8206B5F1000C11C3D /* HardDecoder.h */,
+				254D3BFC206B5F1000C11C3D /* HardDecoder.m */,
+				254D3BF9206B5F1000C11C3D /* HardDecoder+Translater.h */,
+				254D3BF7206B5F1000C11C3D /* HardDecoder+Translater.m */,
+				254D3BFE206B5F1100C11C3D /* ParseFrame.h */,
+				254D3BFA206B5F1000C11C3D /* ParseFrame.mm */,
+				254D3BFB206B5F1000C11C3D /* VideoPacket.h */,
+				254D3BFD206B5F1100C11C3D /* VideoPacket.m */,
+				254D3C19206B613C00C11C3D /* LayerPixer.h */,
+				254D3C1A206B613C00C11C3D /* LayerPixer.m */,
+				254D3C17206B613C00C11C3D /* VideoFileParser.h */,
+				254D3C18206B613C00C11C3D /* VideoFileParser.m */,
+				254D3C26206B809600C11C3D /* Parameter.h */,
+			);
+			path = harddecoder;
+			sourceTree = "<group>";
+		};
+		25D12C4B206CB9590035B619 /* tls */ = {
+			isa = PBXGroup;
+			children = (
+				25D12C4C206CB9AE0035B619 /* StateFitter.h */,
+				25D12C4D206CB9AE0035B619 /* StateFitter.m */,
+			);
+			path = tls;
+			sourceTree = "<group>";
+		};
+		83F6963BC18147C015908E07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F118DEB7F4E728D928E710BF /* libPods-PanoramaWidget.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F54957792F6171C4F0CAFB3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E61EE35921816392B4A020B2 /* Pods-PanoramaWidget.debug.xcconfig */,
+				1E95696DACC62C69A651315C /* Pods-PanoramaWidget.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		254D3B75206A46CD00C11C3D /* PanoramaWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254D3BA2206A46CD00C11C3D /* Build configuration list for PBXNativeTarget "PanoramaWidget" */;
+			buildPhases = (
+				BBAA8CA9277101595FF30B84 /* [CP] Check Pods Manifest.lock */,
+				254D3B72206A46CD00C11C3D /* Sources */,
+				254D3B73206A46CD00C11C3D /* Frameworks */,
+				254D3B74206A46CD00C11C3D /* Resources */,
+				14A804547B4E95E7788AFFE3 /* [CP] Embed Pods Frameworks */,
+				908EA38257C087DBC7E2FDF4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PanoramaWidget;
+			productName = PanoramaWidget;
+			productReference = 254D3B76206A46CD00C11C3D /* PanoramaWidget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		254D3B8D206A46CD00C11C3D /* PanoramaWidgetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254D3BA5206A46CD00C11C3D /* Build configuration list for PBXNativeTarget "PanoramaWidgetTests" */;
+			buildPhases = (
+				254D3B8A206A46CD00C11C3D /* Sources */,
+				254D3B8B206A46CD00C11C3D /* Frameworks */,
+				254D3B8C206A46CD00C11C3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				254D3B90206A46CD00C11C3D /* PBXTargetDependency */,
+			);
+			name = PanoramaWidgetTests;
+			productName = PanoramaWidgetTests;
+			productReference = 254D3B8E206A46CD00C11C3D /* PanoramaWidgetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		254D3B98206A46CD00C11C3D /* PanoramaWidgetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254D3BA8206A46CD00C11C3D /* Build configuration list for PBXNativeTarget "PanoramaWidgetUITests" */;
+			buildPhases = (
+				254D3B95206A46CD00C11C3D /* Sources */,
+				254D3B96206A46CD00C11C3D /* Frameworks */,
+				254D3B97206A46CD00C11C3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				254D3B9B206A46CD00C11C3D /* PBXTargetDependency */,
+			);
+			name = PanoramaWidgetUITests;
+			productName = PanoramaWidgetUITests;
+			productReference = 254D3B99206A46CD00C11C3D /* PanoramaWidgetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		254D3B6E206A46CD00C11C3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "张乐昌";
+				TargetAttributes = {
+					254D3B75206A46CD00C11C3D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					254D3B8D206A46CD00C11C3D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 254D3B75206A46CD00C11C3D;
+					};
+					254D3B98206A46CD00C11C3D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 254D3B75206A46CD00C11C3D;
+					};
+				};
+			};
+			buildConfigurationList = 254D3B71206A46CD00C11C3D /* Build configuration list for PBXProject "PanoramaWidget" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 254D3B6D206A46CD00C11C3D;
+			productRefGroup = 254D3B77206A46CD00C11C3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				254D3B75206A46CD00C11C3D /* PanoramaWidget */,
+				254D3B8D206A46CD00C11C3D /* PanoramaWidgetTests */,
+				254D3B98206A46CD00C11C3D /* PanoramaWidgetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		254D3B74206A46CD00C11C3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D12C5A206CD01C0035B619 /* panorama.h264 in Resources */,
+				254D3BB8206A472200C11C3D /* Shader.vsh in Resources */,
+				254D3B86206A46CD00C11C3D /* LaunchScreen.storyboard in Resources */,
+				254D3B83206A46CD00C11C3D /* Assets.xcassets in Resources */,
+				254D3BCD206A521700C11C3D /* kxmovie.bundle in Resources */,
+				25D12C52206CC2D30035B619 /* panorama.jpeg in Resources */,
+				254D3B81206A46CD00C11C3D /* Main.storyboard in Resources */,
+				25D12C56206CCA600035B619 /* panorama.mp4 in Resources */,
+				254D3BBB206A472200C11C3D /* Shader.fsh in Resources */,
+				254D3BF0206B390D00C11C3D /* panorama.m4v in Resources */,
+				254D3BE8206B37D500C11C3D /* panorama.mkv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254D3B8C206A46CD00C11C3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D12C5B206CD01C0035B619 /* panorama.h264 in Resources */,
+				254D3BCE206A521700C11C3D /* kxmovie.bundle in Resources */,
+				254D3BE9206B37D500C11C3D /* panorama.mkv in Resources */,
+				254D3BBC206A472200C11C3D /* Shader.fsh in Resources */,
+				25D12C57206CCA600035B619 /* panorama.mp4 in Resources */,
+				25D12C53206CC2D30035B619 /* panorama.jpeg in Resources */,
+				254D3BF1206B390D00C11C3D /* panorama.m4v in Resources */,
+				254D3BB9206A472200C11C3D /* Shader.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254D3B97206A46CD00C11C3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D12C5C206CD01C0035B619 /* panorama.h264 in Resources */,
+				254D3BCF206A521700C11C3D /* kxmovie.bundle in Resources */,
+				254D3BEA206B37D500C11C3D /* panorama.mkv in Resources */,
+				254D3BBD206A472200C11C3D /* Shader.fsh in Resources */,
+				25D12C58206CCA600035B619 /* panorama.mp4 in Resources */,
+				25D12C54206CC2D30035B619 /* panorama.jpeg in Resources */,
+				254D3BF2206B390D00C11C3D /* panorama.m4v in Resources */,
+				254D3BBA206A472200C11C3D /* Shader.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14A804547B4E95E7788AFFE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PanoramaWidget/Pods-PanoramaWidget-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		908EA38257C087DBC7E2FDF4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PanoramaWidget/Pods-PanoramaWidget-resources.sh",
+				"${PODS_ROOT}/kxmovie/output/kxmovie.bundle/music_icon.png",
+				"${PODS_ROOT}/kxmovie/output/kxmovie.bundle/playback_ff.png",
+				"${PODS_ROOT}/kxmovie/output/kxmovie.bundle/playback_ff@2x.png",
+				"${PODS_ROOT}/kxmovie/output/kxmovie.bundle/playback_next.png",
+				"${PODS_ROOT}/kxmovie/output/kxmovie.bundle/playback_next@2x.png",
+				"${PODS_ROOT}/kxmovie/output/kxmovie.bundle/playback_pause.png",
+				"${PODS_ROOT}/kxmovie/output/kxmovie.bundle/playback_pause@2x.png",
+				"${PODS_ROOT}/kxmovie/output/kxmovie.bundle/playback_play.png",
+				"${PODS_ROOT}/kxmovie/output/kxmovie.bundle/playback_play@2x.png",
+				"${PODS_ROOT}/kxmovie/output/kxmovie.bundle/playback_prev.png",
+				"${PODS_ROOT}/kxmovie/output/kxmovie.bundle/playback_prev@2x.png",
+				"${PODS_ROOT}/kxmovie/output/kxmovie.bundle/playback_rew.png",
+				"${PODS_ROOT}/kxmovie/output/kxmovie.bundle/playback_rew@2x.png",
+				"${PODS_ROOT}/kxmovie/output/kxmovie.bundle/sliderthumb.png",
+				"${PODS_ROOT}/kxmovie/output/kxmovie.bundle/sliderthumb@2x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PanoramaWidget/Pods-PanoramaWidget-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBAA8CA9277101595FF30B84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PanoramaWidget-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		254D3B72206A46CD00C11C3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D12C48206CB55E0035B619 /* BaseViewController.m in Sources */,
+				254D3C1B206B613C00C11C3D /* VideoFileParser.m in Sources */,
+				254D3BD6206A521700C11C3D /* KxMovieViewController.m in Sources */,
+				254D3BB3206A470B00C11C3D /* PanoramaVC.m in Sources */,
+				254D3C08206B5F1100C11C3D /* HardDecoder.m in Sources */,
+				254D3B7E206A46CD00C11C3D /* ViewController.m in Sources */,
+				254D3BFF206B5F1100C11C3D /* AudioPlayer.mm in Sources */,
+				25D12C4E206CB9AE0035B619 /* StateFitter.m in Sources */,
+				254D3C14206B607A00C11C3D /* H264ViewController.m in Sources */,
+				254D3BB0206A470B00C11C3D /* GLProgram.m in Sources */,
+				254D3BD3206A521700C11C3D /* KxMovieGLView.m in Sources */,
+				254D3C0B206B5F1100C11C3D /* VideoPacket.m in Sources */,
+				254D3BCA206A521700C11C3D /* KxAudioManager.m in Sources */,
+				254D3B89206A46CD00C11C3D /* main.m in Sources */,
+				254D3C1E206B613C00C11C3D /* LayerPixer.m in Sources */,
+				25D12C43206CB4790035B619 /* PhotoViewController.m in Sources */,
+				254D3BD0206A521700C11C3D /* KxMovieDecoder.m in Sources */,
+				254D3C02206B5F1100C11C3D /* HardDecoder+Translater.m in Sources */,
+				254D3B7B206A46CD00C11C3D /* AppDelegate.m in Sources */,
+				254D3C05206B5F1100C11C3D /* ParseFrame.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254D3B8A206A46CD00C11C3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254D3BD1206A521700C11C3D /* KxMovieDecoder.m in Sources */,
+				254D3B93206A46CD00C11C3D /* PanoramaWidgetTests.m in Sources */,
+				254D3BB1206A470B00C11C3D /* GLProgram.m in Sources */,
+				25D12C44206CB4790035B619 /* PhotoViewController.m in Sources */,
+				254D3C0C206B5F1100C11C3D /* VideoPacket.m in Sources */,
+				254D3C15206B607A00C11C3D /* H264ViewController.m in Sources */,
+				254D3C06206B5F1100C11C3D /* ParseFrame.mm in Sources */,
+				25D12C49206CB55E0035B619 /* BaseViewController.m in Sources */,
+				254D3BD7206A521700C11C3D /* KxMovieViewController.m in Sources */,
+				254D3C09206B5F1100C11C3D /* HardDecoder.m in Sources */,
+				254D3BB4206A470B00C11C3D /* PanoramaVC.m in Sources */,
+				254D3C1F206B613C00C11C3D /* LayerPixer.m in Sources */,
+				254D3C00206B5F1100C11C3D /* AudioPlayer.mm in Sources */,
+				254D3C03206B5F1100C11C3D /* HardDecoder+Translater.m in Sources */,
+				254D3BCB206A521700C11C3D /* KxAudioManager.m in Sources */,
+				254D3C1C206B613C00C11C3D /* VideoFileParser.m in Sources */,
+				254D3BD4206A521700C11C3D /* KxMovieGLView.m in Sources */,
+				25D12C4F206CB9AE0035B619 /* StateFitter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254D3B95206A46CD00C11C3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254D3BD2206A521700C11C3D /* KxMovieDecoder.m in Sources */,
+				254D3B9E206A46CD00C11C3D /* PanoramaWidgetUITests.m in Sources */,
+				254D3BB2206A470B00C11C3D /* GLProgram.m in Sources */,
+				25D12C45206CB4790035B619 /* PhotoViewController.m in Sources */,
+				254D3C0D206B5F1100C11C3D /* VideoPacket.m in Sources */,
+				254D3C16206B607A00C11C3D /* H264ViewController.m in Sources */,
+				254D3C07206B5F1100C11C3D /* ParseFrame.mm in Sources */,
+				25D12C4A206CB55E0035B619 /* BaseViewController.m in Sources */,
+				254D3BD8206A521700C11C3D /* KxMovieViewController.m in Sources */,
+				254D3C0A206B5F1100C11C3D /* HardDecoder.m in Sources */,
+				254D3BB5206A470B00C11C3D /* PanoramaVC.m in Sources */,
+				254D3C20206B613C00C11C3D /* LayerPixer.m in Sources */,
+				254D3C01206B5F1100C11C3D /* AudioPlayer.mm in Sources */,
+				254D3C04206B5F1100C11C3D /* HardDecoder+Translater.m in Sources */,
+				254D3BCC206A521700C11C3D /* KxAudioManager.m in Sources */,
+				254D3C1D206B613C00C11C3D /* VideoFileParser.m in Sources */,
+				254D3BD5206A521700C11C3D /* KxMovieGLView.m in Sources */,
+				25D12C50206CB9AE0035B619 /* StateFitter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		254D3B90206A46CD00C11C3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 254D3B75206A46CD00C11C3D /* PanoramaWidget */;
+			targetProxy = 254D3B8F206A46CD00C11C3D /* PBXContainerItemProxy */;
+		};
+		254D3B9B206A46CD00C11C3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 254D3B75206A46CD00C11C3D /* PanoramaWidget */;
+			targetProxy = 254D3B9A206A46CD00C11C3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		254D3B7F206A46CD00C11C3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				254D3B80206A46CD00C11C3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		254D3B84206A46CD00C11C3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				254D3B85206A46CD00C11C3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		254D3BA0206A46CD00C11C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		254D3BA1206A46CD00C11C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		254D3BA3206A46CD00C11C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E61EE35921816392B4A020B2 /* Pods-PanoramaWidget.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5XC59MJ75;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PanoramaWidget/PanoramaWidget.pch";
+				INFOPLIST_FILE = PanoramaWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-iOS.PanoramaWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		254D3BA4206A46CD00C11C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E95696DACC62C69A651315C /* Pods-PanoramaWidget.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5XC59MJ75;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PanoramaWidget/PanoramaWidget.pch";
+				INFOPLIST_FILE = PanoramaWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-iOS.PanoramaWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		254D3BA6206A46CD00C11C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5XC59MJ75;
+				INFOPLIST_FILE = PanoramaWidgetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-iOS.PanoramaWidgetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanoramaWidget.app/PanoramaWidget";
+			};
+			name = Debug;
+		};
+		254D3BA7206A46CD00C11C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5XC59MJ75;
+				INFOPLIST_FILE = PanoramaWidgetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-iOS.PanoramaWidgetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanoramaWidget.app/PanoramaWidget";
+			};
+			name = Release;
+		};
+		254D3BA9206A46CD00C11C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5XC59MJ75;
+				INFOPLIST_FILE = PanoramaWidgetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-iOS.PanoramaWidgetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PanoramaWidget;
+			};
+			name = Debug;
+		};
+		254D3BAA206A46CD00C11C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5XC59MJ75;
+				INFOPLIST_FILE = PanoramaWidgetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-iOS.PanoramaWidgetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PanoramaWidget;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		254D3B71206A46CD00C11C3D /* Build configuration list for PBXProject "PanoramaWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254D3BA0206A46CD00C11C3D /* Debug */,
+				254D3BA1206A46CD00C11C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		254D3BA2206A46CD00C11C3D /* Build configuration list for PBXNativeTarget "PanoramaWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254D3BA3206A46CD00C11C3D /* Debug */,
+				254D3BA4206A46CD00C11C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		254D3BA5206A46CD00C11C3D /* Build configuration list for PBXNativeTarget "PanoramaWidgetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254D3BA6206A46CD00C11C3D /* Debug */,
+				254D3BA7206A46CD00C11C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		254D3BA8206A46CD00C11C3D /* Build configuration list for PBXNativeTarget "PanoramaWidgetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254D3BA9206A46CD00C11C3D /* Debug */,
+				254D3BAA206A46CD00C11C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 254D3B6E206A46CD00C11C3D /* Project object */;
+}
